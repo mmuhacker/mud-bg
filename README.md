@@ -187,12 +187,14 @@ mud_bg.py
 
 اختيارك: 1
 أدخل الهدف: 192.168.1.1
-
+<div align="center">
+  
   المنفذ | الخدمة | المعلومات |
   |----|--------|------------|
   [✓]  22 | SSH | SSH-2.0-OpenSSH_8.9p1 |
   [✓]  80 | HTTP | HTTP/1.1 200 OK Server: Apache/2.4.54 |
   [✓]  3306 | MySQL | 5.7.39-MySQL Community Server |
+</div>
 
   [✓] الخدمات المكتشفة (3)
 
