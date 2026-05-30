@@ -184,18 +184,18 @@ mud_bg.py
 
 </div>
 
-```
+
 اختيارك: 1
 أدخل الهدف: 192.168.1.1
+|----|--------|------------|
 
-  المنفذ  الخدمة        المعلومات
-  ─────────────────────────────────
-  [✓]  22      SSH           SSH-2.0-OpenSSH_8.9p1
-  [✓]  80      HTTP          HTTP/1.1 200 OK | Server: Apache/2.4.54
-  [✓]  3306    MySQL         5.7.39-MySQL Community Server
+  المنفذ | الخدمة | المعلومات |
+  [✓]  22 | SSH | SSH-2.0-OpenSSH_8.9p1 |
+  [✓]  80 | HTTP | HTTP/1.1 200 OK Server: Apache/2.4.54 |
+  [✓]  3306 | MySQL | 5.7.39-MySQL Community Server |
 
   [✓] الخدمات المكتشفة (3)
-```
+
 
 ---
 
@@ -210,6 +210,8 @@ mud_bg.py
 | arabic-reshaper | دعم النص العربي |
 | python-bidi | اتجاه النص العربي |
 | curl | تنزيل الأداة |
+
+</div>
 
 > ⚠️ **ملاحظة:** بدون تثبيت `arabic-reshaper` و `python-bidi` سيظهر النص العربي معكوساً ومتقطعاً.
 
