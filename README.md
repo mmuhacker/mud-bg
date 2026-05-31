@@ -99,12 +99,12 @@ chmod +x $PREFIX/bin/mud_bg.py
 
 **الخطوة 6 — إنشاء رابط الاختصار**
 ```bash
-ln -sf $PREFIX/bin/mud_bg.py $PREFIX/bin/bg
+ln -sf $PREFIX/bin/mud_bg.py $PREFIX/bin/br
 ```
 
 **⚡ أو قم بكل شيء بأمر واحد مجمّع**
 ```bash
-pkg update && pkg upgrade -y && pkg install python tor curl fontconfig rust -y && pip install requests pysocks arabic-reshaper && pip install python-bidi==0.4.2 && curl -L "https://fonts.gstatic.com/s/notonaskharabic/v33/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwvc-VaA.ttf" -o ~/.termux/font.ttf && termux-reload-settings && curl -o $PREFIX/bin/mud_bg.py https://raw.githubusercontent.com/mmuhacker/mud-bg/main/mud_bg.py && chmod +x $PREFIX/bin/mud_bg.py && ln -sf $PREFIX/bin/mud_bg.py $PREFIX/bin/bg && bg
+pkg update && pkg upgrade -y && pkg install python tor curl fontconfig rust -y && pip install requests pysocks arabic-reshaper && pip install python-bidi==0.4.2 && curl -L "https://fonts.gstatic.com/s/notonaskharabic/v33/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwvc-VaA.ttf" -o ~/.termux/font.ttf && termux-reload-settings && curl -o $PREFIX/bin/mud_bg.py https://raw.githubusercontent.com/mmuhacker/mud-bg/main/mud_bg.py && chmod +x $PREFIX/bin/mud_bg.py && ln -sf $PREFIX/bin/mud_bg.py $PREFIX/bin/br && br
 ```
 
 ---
@@ -154,7 +154,7 @@ sudo apt update && sudo apt upgrade -y && pip install requests arabic-reshaper p
 </div>
 
 ```bash
-bg
+br
 ```
 
 **أو بالأمر الكامل**
