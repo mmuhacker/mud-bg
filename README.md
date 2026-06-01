@@ -1,6 +1,7 @@
 <div align="center">
 
-# 🎯 Banner Grabber — أداة جلب معلومات الخدمات
+# 🎯 Banner Grabber
+# أداة جلب معلومات الخدمات
 
 **تعمل على نظام Kali Linux و تطبيق Termux**
 
